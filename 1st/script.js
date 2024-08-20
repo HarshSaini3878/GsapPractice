@@ -23,3 +23,15 @@ gsap.to(".box2", {
     opacity:"1",
    stagger:1, // Corrected syntax
   });
+  gsap.to(".circle", {
+    backgroundColor: "red",
+    duration: 2,
+    y: 300,
+    delay: 1,
+    opacity: 1,
+    yoyo: true, // Enables yoyo effect
+    repeat: -1, // Set to -1 for infinite repetition, or specify a number for a fixed number of repeats
+    stagger: 1,
+  });
+  
+  

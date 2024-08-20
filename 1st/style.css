@@ -19,3 +19,9 @@
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: #3498db; /* You can replace this color code with any color you prefer */
+    border-radius: 50%;
+}
