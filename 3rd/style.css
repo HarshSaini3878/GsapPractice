@@ -7,3 +7,31 @@
 body{
     overflow-x: hidden;
 }
+.page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #page1 {
+    background-color: rgb(0, 0, 0);
+  }
+
+  #page2 {
+    background-color: #000000;
+    color: black;
+    font-size: 3rem;
+  }
+
+  #page3 {
+    background-color: orange;
+    color: white;
+    width: max-content;
+    font-size: 12rem;
+   letter-spacing: 2rem;
+  }
+
+  h1 {
+    margin: 0;
+  }
