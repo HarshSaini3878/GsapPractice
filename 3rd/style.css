@@ -8,6 +8,9 @@ html,body{
   height: 100%;
   width: 100%;
 }
+body{
+  overflow-x: hidden;
+}
 #main{
   height: 100%;
   width: 100%;
@@ -39,7 +42,7 @@ html,body{
   position: absolute;
   background-color: #ffffff5d;
   top: 0;
-  right: 0;
+  right: -40%;
   backdrop-filter: blur(10px);
   padding: 150px 60px;
 }
