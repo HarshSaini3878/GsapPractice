@@ -4,13 +4,13 @@ var cross= document.querySelector("#full i");
     var tl=gsap.timeline();
 tl.to("#full",{
     right:0,
-    duration:0.8,
+    duration:0.6,
 
 })
 tl.from("#full h4",{
    x:150,
-    duration:0.7,
-    stagger:0.25,
+    duration:0.8,
+    stagger:0.20,
     opacity:0,
 
 
