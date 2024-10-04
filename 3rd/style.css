@@ -11,5 +11,24 @@ html,body{
 #main{
   height: 100%;
   width: 100%;
- background-image: url(https://images.pexels.com/photos/1687530/pexels-photo-1687530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1://images.pexels.com/photos/2024534/pexels-photo-2024534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+ 
+  background-image: url(https://images.pexels.com/photos/314726/pexels-photo-314726.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+  background-position: center;
+}
+#nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 50px;
+  color: #fff;
+
+}
+
+#nav i{
+  font-size: 30px;
+  font-weight: 800;
+}
+#nav h2{
+  font-size: 30px;
 }
